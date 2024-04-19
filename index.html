@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            overflow: hidden;
+        }
+        .content{
+            width: 700px;
+            height: 226px;
+            margin: 40px auto 0 auto;
+        }
+        img{
+            width: 700px;
+            height: 226px;
+        }
+        @media screen and (max-width: 600px){
+            .content{
+                transform: rotate(90deg);
+                margin: 250px -150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <img src="Project4_1.jpg">
+    </div>
+</body>
+</html>
